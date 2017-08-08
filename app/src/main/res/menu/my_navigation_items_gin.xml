@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_keynote"
+        android:enabled="true"
+        android:icon="@drawable/ic_procedure"
+        android:title="@string/Keynote" />
+
+    <item
+        android:id="@+id/menu_schedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/Schedule" />
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/Home" />
+    <item
+        android:id="@+id/menu_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_map"
+        android:title="@string/Map" />
+    <item
+        android:id="@+id/menu_more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="@string/More" />
+</menu>

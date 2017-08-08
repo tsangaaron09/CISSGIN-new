@@ -60,7 +60,7 @@ public class cissmunmain extends Activity
         setContentView(R.layout.cissmunmain);
 
        // mTextMessage = (TextView) findViewById(R.id);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationCiss);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
 

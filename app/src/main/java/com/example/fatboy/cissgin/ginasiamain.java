@@ -39,7 +39,7 @@ public class ginasiamain extends Activity {
 
                     return true;
 
-                case R.id.menu_procedure:
+                case R.id.menu_keynote:
                     return true;
                 case R.id.menu_schedule:
 
@@ -55,7 +55,7 @@ public class ginasiamain extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ginasiamain);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationGin);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
 
