@@ -3,7 +3,13 @@ package com.example.fatboy.cissgin;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v7.app.AppCompatActivity;
+
+
 
 /**
  * Created by Fatboy on 22/6/2017.
@@ -19,9 +25,44 @@ public class cissmunmain extends Activity
     TextView e;
     TextView f;
 
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.menu_home:
+
+                    return true;
+                case R.id.menu_map:
+
+                    return true;
+                case R.id.menu_more:
+
+                    return true;
+
+                case R.id.menu_procedure:
+                    return true;
+                case R.id.menu_schedule:
+
+                    return true;
+            }
+            return true;
+        }
+
+    };
+
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cissmunmain);
+
+       // mTextMessage = (TextView) findViewById(R.id);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation.setSelectedItemId(R.id.menu_home);
 
         a = (TextView) findViewById(R.id.erikpaulson);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
