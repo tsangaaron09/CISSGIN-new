@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.content.Intent;
 
 /**
  * Created by Fatboy on 22/6/2017.
@@ -29,18 +30,19 @@ public class ginasiamain extends Activity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.menu_home:
 
+                case R.id.menu_home:
                     return true;
                 case R.id.menu_map:
-
                     return true;
                 case R.id.menu_more:
-
                     return true;
-
                 case R.id.menu_keynote:
-                    return true;
+                    Intent intent = new Intent(ginasiamain.this, keynotespeakers.class);
+                    startActivity(intent);
+                    break;
+
+
                 case R.id.menu_schedule:
 
                     return true;
