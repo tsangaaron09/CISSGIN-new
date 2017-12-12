@@ -1,6 +1,7 @@
 package com.example.fatboy.cissgin;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -8,6 +9,10 @@ import android.widget.TextView;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+
+
 
 
 
@@ -39,8 +44,13 @@ public class cissmunmain extends Activity
 
                     return true;
                 case R.id.menu_more:
+                    Intent i = new Intent(cissmunmain.this, moreTab.class);
+                    startActivity(i);
+
 
                     return true;
+
+
 
                 case R.id.menu_procedure:
                     return true;
