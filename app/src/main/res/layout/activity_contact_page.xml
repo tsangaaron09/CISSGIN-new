@@ -24,9 +24,8 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/contact" />
+                app:srcCompat="@drawable/contactmain" />
 
             <TextView
                 android:id="@+id/textView"
@@ -227,6 +226,72 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="131-620-37617"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end" />/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chris Carter (Conference Supervisor GIN)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="150-0193-6994"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end" />/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Carla Molloy (Conference Supervisor GIN)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="186-1672=7097"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end" />/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Michelle Turner (Conference Supervisor GIN)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="159-0187-3109"
                     android:textAlignment="viewEnd"
                     android:layout_gravity="end" />/>
             </LinearLayout>
@@ -680,6 +745,267 @@
                     android:textAlignment="viewEnd"
                     android:layout_gravity="end" />/>
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="GIN Heads of Conference"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Karen Ma"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="138-1860-5716"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jessica Chen"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="188-2120-5871"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Isabel Cheng"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="180-1769-2633"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="GIN Heads of Club Sub-Committees"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Emersyn Lyon (Plastic Reduction)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="130-2317-0070"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Angela Qian (Human Rights)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="150-0180-2143"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Julie Baik (Human Rights)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="136-1188-6343"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kyuwon Kim (Human Rights)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="185-1210-5395"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Katherine Xiao (Composting and Food Waste)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="150-0070-7817"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Michelle Li (Composting and Food Waste"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="150-0092-6393"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Megan Li (Recycling)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="159-2103-1393"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:text="Colin Callis (Recycling)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="185-1632-8195"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>

@@ -36,6 +36,9 @@ public class ginasiamain extends Activity {
                 case R.id.menu_map:
                     return true;
                 case R.id.menu_more:
+                    Intent intent1 = new Intent(ginasiamain.this, moreTab.class);
+                    startActivity(intent1);
+
                     return true;
                 case R.id.menu_keynote:
                     Intent intent = new Intent(ginasiamain.this, keynotespeakers.class);
