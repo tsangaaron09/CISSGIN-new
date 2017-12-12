@@ -7,14 +7,7 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigationMore"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:itemBackground="@color/colorPrimary"
-        app:layout_constraintBottom_toBottomOf="@+id/cisMunScreen"
-        app:menu="@menu/my_navigation_items" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,8 +20,7 @@
             android:id="@+id/shanghaiButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.1"
-            android:cropToPadding="false"
+            android:layout_weight="1"
             android:elevation="0dp"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
@@ -40,7 +32,8 @@
             android:id="@+id/jinqiaoButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.1"
+            android:layout_weight="1"
+            android:elevation="1dp"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
             android:scaleY="1.1"
@@ -50,12 +43,12 @@
             android:id="@+id/contactButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.9"
+            android:layout_weight="1"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
-            android:scaleY="1.1"
-            android:layout_marginBottom="63dp"
-            app:srcCompat="@drawable/contactmain" />
+            android:scaleY="1.2"
+            app:srcCompat="@drawable/contact" />
+
 
     </LinearLayout>
 
@@ -80,10 +73,10 @@
             android:id="@+id/jinqiaoTab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="sans-serif"
             android:lineSpacingExtra="8sp"
-            android:text="Jin Qiao"
+            android:text="Jinqiao"
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
             android:textSize="48sp" />
@@ -92,7 +85,7 @@
             android:id="@+id/contactTab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="sans-serif"
             android:lineSpacingExtra="8sp"
             android:text="Contact"
@@ -102,7 +95,6 @@
 
 
     </LinearLayout>
-
 
 
 </FrameLayout>

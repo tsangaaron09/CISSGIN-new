@@ -25,34 +25,7 @@ public class moreTab extends AppCompatActivity{
     TextView b;
     TextView c;
 
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.menu_home:
-
-                    return true;
-                case R.id.menu_map:
-
-                    return true;
-                case R.id.menu_more:
-
-                    return true;
-
-
-
-                case R.id.menu_procedure:
-                    return true;
-                case R.id.menu_schedule:
-
-                    return true;
-            }
-            return true;
-        }
-
-    };
 
     protected void onCreate(final Bundle savedInstanceState) {
 
@@ -61,9 +34,7 @@ public class moreTab extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.more);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationMore);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        navigation.setSelectedItemId(R.id.menu_more);
+
 
         shanghai = (ImageButton) findViewById(R.id.shanghaiButton);
 

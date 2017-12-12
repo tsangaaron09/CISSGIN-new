@@ -28,33 +28,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/disney" />
+                app:srcCompat="@drawable/carrefour" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/thebund" />
+                app:srcCompat="@drawable/kerry" />
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/french" />
+                app:srcCompat="@drawable/science" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/yugarden" />
+                app:srcCompat="@drawable/fake" />
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/temple" />
+                app:srcCompat="@drawable/century" />
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"

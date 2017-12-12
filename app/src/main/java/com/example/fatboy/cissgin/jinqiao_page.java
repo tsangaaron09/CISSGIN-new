@@ -24,6 +24,8 @@ public class jinqiao_page extends AppCompatActivity{
     TextView d;
     TextView e;
     Button transportation;
+    Button attractions;
+    Button dining;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +67,31 @@ public class jinqiao_page extends AppCompatActivity{
                                                   startActivity(i);
                                               }
                                           }
+        );
+
+
+        attractions = (Button) findViewById(R.id.attractionsButton);
+
+        attractions.setOnClickListener(new View.OnClickListener()
+                                          {
+                                              public void onClick(View v)
+                                              {
+                                                  Intent i = new Intent(jinqiao_page.this, jinqiaoAttractions.class);
+                                                  startActivity(i);
+                                              }
+                                          }
+        );
+
+        dining = (Button) findViewById(R.id.diningButton);
+
+        dining.setOnClickListener(new View.OnClickListener()
+                                       {
+                                           public void onClick(View v)
+                                           {
+                                               Intent i = new Intent(jinqiao_page.this, jinqiaoDining.class);
+                                               startActivity(i);
+                                           }
+                                       }
         );
 
 
