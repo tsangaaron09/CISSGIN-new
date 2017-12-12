@@ -61,9 +61,11 @@ public class ginasiamain extends Activity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
 
-        a = (TextView) findViewById(R.id.leeannelavender);
+       /* a = (TextView) findViewById(R.id.leeannelavender);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         a.setTypeface(myCustomFont);
+
+        */
 
         b = (TextView) findViewById(R.id.gindirector);
         Typeface myCustomFont2 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
