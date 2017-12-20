@@ -28,45 +28,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/disney" />
+                app:srcCompat="@mipmap/disney" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/thebund" />
+                app:srcCompat="@mipmap/thebund" />
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/french" />
+                app:srcCompat="@mipmap/french" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/yugarden" />
+                app:srcCompat="@mipmap/yugarden" />
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/temple" />
+                app:srcCompat="@mipmap/temple" />
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/pearltower" />
+                app:srcCompat="@mipmap/pearltower" />
             <ImageView
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/shanghaitower" />
+                app:srcCompat="@mipmap/shanghaitower" />
         </LinearLayout>
     </ScrollView>
 

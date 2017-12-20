@@ -1,3 +1,5 @@
+
+
 package com.example.fatboy.cissgin;
 
 import android.app.Activity;
@@ -38,22 +40,28 @@ public class cissmunmain extends Activity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.menu_home:
+                    Intent i = new Intent(cissmunmain.this, cissmunmain.class);
+                    startActivity(i);
 
                     return true;
+
                 case R.id.menu_map:
 
                     return true;
+
                 case R.id.menu_more:
-                    Intent i = new Intent(cissmunmain.this, moreTab.class);
-                    startActivity(i);
+                    Intent j = new Intent(cissmunmain.this, moreTab.class);
+                    startActivity(j);
 
 
                     return true;
-
-
 
                 case R.id.menu_procedure:
+                    //Intent k = new Intent(cissmunmain.this, cissmunprocedure.class);
+                    //startActivity(k);
+
                     return true;
+
                 case R.id.menu_schedule:
 
                     return true;
@@ -69,7 +77,7 @@ public class cissmunmain extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cissmunmain);
 
-       // mTextMessage = (TextView) findViewById(R.id);
+        // mTextMessage = (TextView) findViewById(R.id);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationCiss);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);

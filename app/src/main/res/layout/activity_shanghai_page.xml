@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F6F2ED"
     android:layout_height="match_parent"><![CDATA[
     tools:context="layout.shanghaiPage">
 
@@ -29,8 +30,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-
-
             android:text="Shanghai is the largest city by population in the People's Republic of China and one of the largest in the world. Often called the &quot;showpiece&quot; of the new China, Shanghai offers vistors a comsopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world's most modern and spectacular skylines."
             android:textColor="@android:color/black"
             android:textSize="14sp"
@@ -40,28 +39,36 @@
             android:id="@+id/attractionsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/borderline_iv"
+            android:text="   Attractions"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
 
-            android:backgroundTint="@color/buttonColor"
-            android:text="Attractions"
-            android:textAlignment="viewStart" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
 
         <Button
             android:id="@+id/transportationButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/borderline_iv"
+            android:text="   Transportation"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
 
-            android:backgroundTint="@color/buttonColor"
-            android:text="Transportation"
-            android:textAlignment="viewStart" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
 
         <Button
             android:id="@+id/diningButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
-            android:backgroundTint="@color/buttonColor"
-            android:text="Dining"
-            android:textAlignment="viewStart" />
+            android:background="@drawable/borderline_iv"
+            android:text="    Dining"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
 
 
 
