@@ -8,6 +8,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,71 +37,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".moreTab">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".moreTab"></activity>
+        <activity android:name=".shanghaiPage"></activity>
+        <activity android:name=".jinqiao_page"></activity>
+        <activity android:name=".contactPage"></activity>
+        <activity android:name=".transportationPage"></activity>
+        <activity android:name=".shanghaiAttractions"></activity>
+        <activity android:name=".shanghaiDining"></activity>
+        <activity android:name=".jinqiaoAttractions"></activity>
+        <activity android:name=".jinqiaoDining"></activity>
+        <activity android:name=".keynotespeakers"></activity>
+        <activity android:name=".cissmunprocedure"></activity>
+        <activity android:name=".pro_coverpage"></activity>
+        <activity android:name=".pro_roster"></activity>
+        <activity android:name=".pro_guidelines"></activity>
+        <activity android:name=".pro_procedure"></activity>
+        <activity android:name=".pro_chairing"></activity>
+        <activity android:name=".pro_appendix1"></activity>
+        <activity android:name=".pro_appendix11"></activity>
+        <activity android:name=".ginschedule"></activity>
+        <activity android:name=".munschedule"></activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".shanghaiPage">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".jinqiao_page">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".contactPage">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".transportationPage">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".shanghaiAttractions">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".shanghaiDining">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".jinqiaoAttractions">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-
-        <activity android:name=".jinqiaoDining">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
 
 

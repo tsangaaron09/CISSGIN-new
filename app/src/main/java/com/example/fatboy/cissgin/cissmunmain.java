@@ -1,5 +1,3 @@
-
-
 package com.example.fatboy.cissgin;
 
 import android.app.Activity;
@@ -31,6 +29,11 @@ public class cissmunmain extends Activity
     TextView d;
     TextView e;
     TextView f;
+    TextView g;
+    TextView h;
+    TextView i;
+    TextView j;
+
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -40,30 +43,27 @@ public class cissmunmain extends Activity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.menu_home:
-                    Intent i = new Intent(cissmunmain.this, cissmunmain.class);
-                    startActivity(i);
 
                     return true;
-
                 case R.id.menu_map:
 
                     return true;
-
                 case R.id.menu_more:
-                    Intent j = new Intent(cissmunmain.this, moreTab.class);
-                    startActivity(j);
-
-
+                    Intent i = new Intent(cissmunmain.this, moreTab.class);
+                    startActivity(i);
                     return true;
+
+
 
                 case R.id.menu_procedure:
-                    //Intent k = new Intent(cissmunmain.this, cissmunprocedure.class);
-                    //startActivity(k);
-
+                    Intent j = new Intent(cissmunmain.this, cissmunprocedure.class);
+                    startActivity(j);
                     return true;
 
-                case R.id.menu_schedule:
 
+                case R.id.menu_schedule:
+                    Intent k = new Intent(cissmunmain.this, munschedule.class);
+                    startActivity(k);
                     return true;
             }
             return true;
@@ -82,30 +82,42 @@ public class cissmunmain extends Activity
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
 
-        a = (TextView) findViewById(R.id.erikpaulson);
+        a = (TextView) findViewById(R.id.cissmunix);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         a.setTypeface(myCustomFont);
 
-        b = (TextView) findViewById(R.id.paulsondesc);
-        Typeface myCustomFont2 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        b.setTypeface(myCustomFont2);
+        b = (TextView) findViewById(R.id.desc1paulson);
+        b.setTypeface(myCustomFont);
 
-        c = (TextView) findViewById(R.id.cissmundirector);
-        Typeface myCustomFont3 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        c.setTypeface(myCustomFont3);
+        c = (TextView) findViewById(R.id.desc2paulson);
+        c.setTypeface(myCustomFont);
 
-        d = (TextView) findViewById(R.id.katherinehou);
-        Typeface myCustomFont4 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        d.setTypeface(myCustomFont4);
+        d = (TextView) findViewById(R.id.CISSMUNDirector);
+        d.setTypeface(myCustomFont);
 
-        e = (TextView) findViewById(R.id.secretarygeneral);
-        Typeface myCustomFont5 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        e.setTypeface(myCustomFont5);
+        e = (TextView) findViewById(R.id.WELCOME);
+        e.setTypeface(myCustomFont);
 
-        f = (TextView) findViewById(R.id.katherinedesc);
-        Typeface myCustomFont6 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        f.setTypeface(myCustomFont6);
+        f = (TextView) findViewById(R.id.desc1katherine);
+        f.setTypeface(myCustomFont);
+
+        g = (TextView) findViewById(R.id.ErikPaulson);
+        g.setTypeface(myCustomFont);
+
+        h = (TextView) findViewById(R.id.desc2katherine);
+        h.setTypeface(myCustomFont);
+
+        i = (TextView) findViewById(R.id.SecretaryGeneral);
+        i.setTypeface(myCustomFont);
+
+        j = (TextView) findViewById(R.id.KatherineHou);
+        j.setTypeface(myCustomFont);
+
+
+
+
 
 
     }
 }
+

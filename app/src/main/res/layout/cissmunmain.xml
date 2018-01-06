@@ -23,7 +23,6 @@
 
 
 
-
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -38,25 +37,21 @@
         android:layout_marginBottom="8dp">
 
 
-
-
-        <android.support.constraint.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-
-
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView10"
-                android:layout_width="0dp"
+                android:id="@+id/cissmunix"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#000000"
+                android:background="#1F1E1F"
                 android:gravity="center_vertical"
                 android:text="CISSMUN IX"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
-                android:textSize="30dp"
+                android:textSize="24dp"
                 android:textStyle="bold"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -64,158 +59,165 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView11"
-                android:layout_width="0dp"
+                android:id="@+id/WELCOME"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_marginTop="60dp"
                 android:background="@mipmap/munhome"
                 android:gravity="center|center_horizontal"
                 android:text="WELCOME"
                 android:textColor="#FFFFFF"
                 android:textSize="30dp"
                 android:textStyle="bold"
+                android:layout_marginTop="0dp"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/textView10" />
 
-            <TextView
-                android:id="@+id/erikpaulson"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="272dp"
-                android:text="Erik Paulson"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/cissmundirector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CISSMUN Director"
-                android:textColor="#000000"
-                android:layout_marginRight="8dp"
-                app:layout_constraintRight_toRightOf="parent"
-                android:layout_marginLeft="8dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="308dp"
-                app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                <LinearLayout
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/paulsonpic"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/erikpaulson"
-                android:layout_marginRight="8dp"
-                app:layout_constraintRight_toRightOf="parent"
-                android:layout_marginLeft="8dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="291dp"
-                app:layout_constraintHorizontal_bias="1.0"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                    <TextView
+                        android:id="@+id/CISSMUNDirector"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CISSMUN Director"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        tools:text="CISSMUN Director" />
+
+                    <TextView
+                        android:id="@+id/ErikPaulson"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Erik Paulson"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/desc1paulson"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:editable="false"
+                        android:inputType="none"
+                        android:text="It is both an honor and a privilege to welcome you to to the nineth annual session of Concordia International School Shanghai Model United Nations."
+                        android:textColor="#000000"
+                        android:background="@null"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/paulsonpic"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/erikpaulson1" />
+
+            </LinearLayout>
 
             <EditText
-                android:id="@+id/paulsondesc"
-                android:layout_width="164dp"
-                android:layout_height="152dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="320dp"
+                android:id="@+id/desc2paulson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
                 android:ems="10"
-                android:inputType="textMultiLine"
-                android:text="stuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuff"
+                android:editable="false"
+                android:inputType="none"
+                android:text="Whatever role you will play in this year's event, whether chair, judge, delegate, member of the press team or anything else, I hope that the conference will leave you with a heightened understanding of the social and political challenges confronting the international community, and that you will come away more practiced in the arts of public speaking, active participation and compromise. I look forward to your active particiapation in the ninth annual session of CISSMUN, and I wish you every success."
                 android:textColor="#000000"
-                android:textSize="14sp"
-                android:focusable="false"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                android:textSize="12sp" />
 
-            <TextView
-                android:id="@+id/katherinehou"
-                android:layout_width="wrap_content"
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="71dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="491dp"
-                android:text="Katherine Hou"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                app:layout_constraintHorizontal_bias="0.821"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginStart="71dp"
-                android:layout_marginEnd="8dp" />
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/secretarygeneral"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="529dp"
-                android:text="Secretary General"
-                android:textColor="#000000"
-                app:layout_constraintHorizontal_bias="0.725"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                <LinearLayout
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/erikpaulson"
-                android:layout_marginRight="8dp"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="512dp"
-                android:layout_marginLeft="8dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                    <TextView
+                        android:id="@+id/SecretaryGeneral"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Secretary General"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        android:id="@+id/KatherineHou"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Katherine Hou"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/desc1katherine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:editable="false"
+                        android:background="@null"
+                        android:inputType="none"
+                        android:text="I have been involved with CISSMUN and MUN in general since 7th grade. Creating and being a part of a forum for confronting global issues is really important to me! "
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/katherinepic"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/katherine1" />
+
+            </LinearLayout>
             <EditText
-                android:id="@+id/katherinedesc"
-                android:layout_width="177dp"
-                android:layout_height="152dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:id="@+id/desc2katherine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
                 android:ems="10"
-                android:inputType="textMultiLine"
-                android:text="stuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuffstuff"
+                android:editable="false"
+                android:inputType="none"
+                android:text="CISSMUN and GIN working together during this conference will hopefully give us all a broader understanding of how important issues can be tackled. Ultimately, GIN and MUN are two sides of the same coin. Let's find a way to connect the ideas, and connect with each other, to collaborate!"
                 android:textColor="#000000"
-                android:focusable="false"
-                android:textSize="14sp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintHorizontal_bias="0.951"
-                android:layout_marginTop="546dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp" />
+                android:textSize="12sp" />
 
-        </android.support.constraint.ConstraintLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
     </ScrollView>
 
+
 </android.support.constraint.ConstraintLayout>
+

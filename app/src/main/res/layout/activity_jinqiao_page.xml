@@ -2,7 +2,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#F6F2ED"
     android:layout_height="match_parent"><![CDATA[
     tools:context="layout.shanghaiPage">
 
@@ -41,36 +40,31 @@
             android:id="@+id/attractionsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/borderline_iv"
-            android:text="   Attractions"
-            android:textAlignment="viewStart"
-            android:layout_gravity="start" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
+            android:backgroundTint="@color/buttonColor"
+            android:text="Attractions"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"/>
 
         <Button
             android:id="@+id/transportationButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/borderline_iv"
-            android:text="   Transportation"
-            android:textAlignment="viewStart"
-            android:layout_gravity="start" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
+            android:backgroundTint="@color/buttonColor"
+            android:text="Transportation"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"/>
 
         <Button
             android:id="@+id/diningButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/borderline_iv"
-            android:text="    Dining"
+
+            android:backgroundTint="@color/buttonColor"
+            android:text="Dining"
             android:textAlignment="viewStart"
-            android:layout_gravity="start" />
+            android:layout_gravity="start"/>
 
 
 

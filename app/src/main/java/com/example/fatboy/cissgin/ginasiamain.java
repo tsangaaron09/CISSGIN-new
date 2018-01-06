@@ -23,6 +23,10 @@ public class ginasiamain extends Activity {
     TextView d;
     TextView e;
     TextView f;
+    TextView g;
+    TextView h;
+    TextView i;
+    TextView j;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -38,17 +42,20 @@ public class ginasiamain extends Activity {
                 case R.id.menu_more:
                     Intent intent1 = new Intent(ginasiamain.this, moreTab.class);
                     startActivity(intent1);
-
                     return true;
+
                 case R.id.menu_keynote:
-                    Intent intent = new Intent(ginasiamain.this, keynotespeakers.class);
-                    startActivity(intent);
-                    break;
+                    Intent i = new Intent(ginasiamain.this, keynotespeakers.class);
+                    startActivity(i);
+                    return true;
 
 
                 case R.id.menu_schedule:
-
+                    Intent j = new Intent(ginasiamain.this, ginschedule.class);
+                    startActivity(j);
                     return true;
+
+
             }
             return true;
         }
@@ -64,29 +71,39 @@ public class ginasiamain extends Activity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
 
-        a = (TextView) findViewById(R.id.leeannelavender);
+        a = (TextView) findViewById(R.id.GINASIA);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         a.setTypeface(myCustomFont);
 
-        b = (TextView) findViewById(R.id.gindirector);
-        Typeface myCustomFont2 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        b.setTypeface(myCustomFont2);
+        b = (TextView) findViewById(R.id.desc1leeanne);
+        b.setTypeface(myCustomFont);
 
-        c = (TextView) findViewById(R.id.karenma);
-        Typeface myCustomFont3 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        c.setTypeface(myCustomFont3);
+        c = (TextView) findViewById(R.id.desc2leeanne);
+        c.setTypeface(myCustomFont);
 
-        d = (TextView) findViewById(R.id.ginstudenthead);
-        Typeface myCustomFont4 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        d.setTypeface(myCustomFont4);
+        d = (TextView) findViewById(R.id.gindirector);
+        d.setTypeface(myCustomFont);
 
-        e = (TextView) findViewById(R.id.karendesc);
-        Typeface myCustomFont5 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        e.setTypeface(myCustomFont5);
+        e = (TextView) findViewById(R.id.WELCOME);
+        e.setTypeface(myCustomFont);
 
-        f = (TextView) findViewById(R.id.lavenderdesc);
-        Typeface myCustomFont6 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        f.setTypeface(myCustomFont6);
+        f = (TextView) findViewById(R.id.desc1karen);
+        f.setTypeface(myCustomFont);
+
+        g = (TextView) findViewById(R.id.leeanne);
+        g.setTypeface(myCustomFont);
+
+        h = (TextView) findViewById(R.id.desc2karen);
+        h.setTypeface(myCustomFont);
+
+        i = (TextView) findViewById(R.id.ginstudenthead);
+        i.setTypeface(myCustomFont);
+
+        j = (TextView) findViewById(R.id.karenma);
+        j.setTypeface(myCustomFont);
+
+
+
 
     }
 }
