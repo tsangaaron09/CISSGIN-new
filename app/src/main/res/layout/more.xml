@@ -1,6 +1,5 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,83 +13,65 @@
         android:adjustViewBounds="true"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/moretab"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1F1E1F"
+            android:gravity="center_vertical"
+            android:text="More"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
+
+        <Button
             android:id="@+id/shanghaiButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@drawable/shanghai"
             android:elevation="0dp"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
             android:scaleY="1.1"
-            app:srcCompat="@drawable/shanghai" />
+            android:text="Shanghai"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
 
 
-        <ImageButton
-            android:id="@+id/jinqiaoButton"
+        <Button
+            android:id="@+id/jinqiaobutton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:elevation="1dp"
+            android:background="@mipmap/concordia"
+            android:elevation="0dp"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
             android:scaleY="1.1"
-            app:srcCompat="@mipmap/concordia" />
+            android:text="Jinqiao"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
 
-        <ImageButton
-            android:id="@+id/contactButton"
+        <Button
+            android:id="@+id/contactbutton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@mipmap/contact"
+            android:elevation="0dp"
             android:scaleType="centerCrop"
             android:scaleX="1.1"
-            android:scaleY="1.2"
-            app:srcCompat="@mipmap/contact" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/shanghaiTab"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:fontFamily="sans-serif"
-            android:lineSpacingExtra="8sp"
-            android:text="Shanghai"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="48sp" />
-
-        <TextView
-            android:id="@+id/jinqiaoTab"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
-            android:fontFamily="sans-serif"
-            android:lineSpacingExtra="8sp"
-            android:text="Jinqiao"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="48sp" />
-
-        <TextView
-            android:id="@+id/contactTab"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
-            android:fontFamily="sans-serif"
-            android:lineSpacingExtra="8sp"
+            android:scaleY="1.1"
             android:text="Contact"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="48sp" />
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
 
 
     </LinearLayout>

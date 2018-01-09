@@ -57,10 +57,31 @@
         <activity android:name=".pro_appendix11"></activity>
         <activity android:name=".ginschedule"></activity>
         <activity android:name=".munschedule"></activity>
-
-
-
-
+        <activity android:name=".ginmap"></activity>
+        <activity android:name=".hslist"></activity>
+        <activity android:name=".mslist"></activity>
+        <activity android:name=".pclist"></activity>
+        <activity android:name=".eslist"></activity>
+        <activity android:name=".ritt"></activity>
+        <activity android:name=".h1"></activity>
+        <activity android:name=".h2"></activity>
+        <activity android:name=".h3"></activity>
+        <activity android:name=".h4"></activity>
+        <activity android:name=".h5"></activity>
+        <activity android:name=".h6"></activity>
+        <activity android:name=".hb1"></activity>
+        <activity android:name=".pc1"></activity>
+        <activity android:name=".pc2"></activity>
+        <activity android:name=".m1"></activity>
+        <activity android:name=".m2"></activity>
+        <activity android:name=".e1"></activity>
+        <activity android:name=".e2"></activity>
+        <activity android:name=".e3"></activity>
+        <activity android:name=".e4"></activity>
+        <activity android:name=".r1"></activity>
+        <activity android:name=".r2"></activity>
+        <activity android:name=".r3"></activity>
+        <activity android:name=".r4"></activity>
 
 
     </application>

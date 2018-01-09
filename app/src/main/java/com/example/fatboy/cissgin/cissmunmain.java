@@ -4,13 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.TextView;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
+import android.view.MenuItem;
+import android.widget.TextView;
 
 
 
@@ -46,8 +43,10 @@ public class cissmunmain extends Activity
 
                     return true;
                 case R.id.menu_map:
-
+                    Intent o = new Intent(cissmunmain.this, ginmap.class);
+                    startActivity(o);
                     return true;
+
                 case R.id.menu_more:
                     Intent i = new Intent(cissmunmain.this, moreTab.class);
                     startActivity(i);
