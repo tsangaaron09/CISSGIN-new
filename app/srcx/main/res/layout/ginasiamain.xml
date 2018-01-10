@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F2ED"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:id="@+id/ginAsiaScreen"
+
+    tools:context="com.example.fatboy.cissgin.ginasiamain">
+
+    <android.support.design.widget.BottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigationGin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/ginAsiaScreen"
+        app:menu="@menu/my_navigation_items_gin" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:id="@+id/scrollView2"
+        android:layout_marginBottom="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/GINASIA"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1E1F1E"
+                android:gravity="center_vertical"
+                android:text="GINASIA"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/WELCOME"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/ginhome"
+                android:gravity="center|center_horizontal"
+                android:text="WELCOME"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gindirector"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GIN Director"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/leeanne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LeeAnne Lavender"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/desc1leeanne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:editable="false"
+                        android:inputType="none"
+                        android:text="I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place! "
+                        android:textColor="#000000"
+                        android:background="@null"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/leeannepic"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/lavender1" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/desc2leeanne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:editable="false"
+                android:inputType="none"
+                android:text="I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ginstudenthead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GIN Student Head"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/karenma"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Karen Ma"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/desc1karen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:editable="false"
+                        android:background="@null"
+                        android:inputType="none"
+                        android:text="I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment."
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/karenmapic"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/karen1" />
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/desc2karen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:editable="false"
+                android:inputType="none"
+                android:text="I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

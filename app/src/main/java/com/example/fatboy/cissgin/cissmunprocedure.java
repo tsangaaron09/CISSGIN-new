@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -19,7 +22,42 @@ public class cissmunprocedure extends Activity {
     private Button coverpage,roster,guidelines, rules, chairing,one,two;
 
 
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.menu_home:
+                    Intent p = new Intent(cissmunprocedure.this, cissmunmain.class);
+                    startActivity(p);
+                    return true;
+                case R.id.menu_map:
+                    Intent o = new Intent(cissmunprocedure.this, ginmap.class);
+                    startActivity(o);
+                    return true;
+
+                case R.id.menu_more:
+                    Intent i = new Intent(cissmunprocedure.this, moreTab.class);
+                    startActivity(i);
+                    return true;
+
+
+
+                case R.id.menu_procedure:
+
+                    return true;
+
+
+                case R.id.menu_schedule:
+                    Intent k = new Intent(cissmunprocedure.this, munschedule.class);
+                    startActivity(k);
+                    return true;
+            }
+            return true;
+        }
+
+    };
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +65,10 @@ public class cissmunprocedure extends Activity {
         setContentView(R.layout.munprocedure);
 
 
-
+        // mTextMessage = (TextView) findViewById(R.id);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationCiss);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation.setSelectedItemId(R.id.menu_procedure);
 
         coverpage = (Button)findViewById(R.id.coverpage);
         coverpage.setOnClickListener(new View.OnClickListener() {

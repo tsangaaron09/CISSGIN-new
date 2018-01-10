@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+    tools:context="layout.shanghaiPage">
+
+
+
+    ]]>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/concordia" />
+
+        <TextView
+            android:id="@+id/shanghaiPageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+
+            android:text="Shanghai is the largest city by population in the People's Republic of China and one of the largest in the world. Often called the &quot;showpiece&quot; of the new China, Shanghai offers vistors a comsopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world's most modern and spectacular skylines."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/attractionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/buttonColor"
+            android:text="Attractions"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"/>
+
+        <Button
+            android:id="@+id/transportationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/buttonColor"
+            android:text="Transportation"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"/>
+
+        <Button
+            android:id="@+id/diningButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/buttonColor"
+            android:text="Dining"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/shanghaiMain"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_marginTop="65dp"
+        android:layout_weight="1"
+        android:text="金桥"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp" />
+
+</FrameLayout>

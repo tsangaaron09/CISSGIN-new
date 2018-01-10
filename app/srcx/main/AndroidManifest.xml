@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatboy.cissgin">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cissmunmain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ginasiamain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".moreTab"></activity>
+        <activity android:name=".shanghaiPage"></activity>
+        <activity android:name=".jinqiao_page"></activity>
+        <activity android:name=".contactPage"></activity>
+        <activity android:name=".transportationPage"></activity>
+        <activity android:name=".shanghaiAttractions"></activity>
+        <activity android:name=".shanghaiDining"></activity>
+        <activity android:name=".jinqiaoAttractions"></activity>
+        <activity android:name=".jinqiaoDining"></activity>
+        <activity android:name=".keynotespeakers"></activity>
+        <activity android:name=".cissmunprocedure"></activity>
+        <activity android:name=".pro_coverpage"></activity>
+        <activity android:name=".pro_roster"></activity>
+        <activity android:name=".pro_guidelines"></activity>
+        <activity android:name=".pro_procedure"></activity>
+        <activity android:name=".pro_chairing"></activity>
+        <activity android:name=".pro_appendix1"></activity>
+        <activity android:name=".pro_appendix11"></activity>
+        <activity android:name=".ginschedule"></activity>
+        <activity android:name=".munschedule"></activity>
+        <activity android:name=".ginmap"></activity>
+        <activity android:name=".hslist"></activity>
+        <activity android:name=".mslist"></activity>
+        <activity android:name=".pclist"></activity>
+        <activity android:name=".eslist"></activity>
+        <activity android:name=".ritt"></activity>
+        <activity android:name=".h1"></activity>
+        <activity android:name=".h2"></activity>
+        <activity android:name=".h3"></activity>
+        <activity android:name=".h4"></activity>
+        <activity android:name=".h5"></activity>
+        <activity android:name=".h6"></activity>
+        <activity android:name=".hb1"></activity>
+        <activity android:name=".pc1"></activity>
+        <activity android:name=".pc2"></activity>
+        <activity android:name=".m1"></activity>
+        <activity android:name=".m2"></activity>
+        <activity android:name=".e1"></activity>
+        <activity android:name=".e2"></activity>
+        <activity android:name=".e3"></activity>
+        <activity android:name=".e4"></activity>
+        <activity android:name=".r1"></activity>
+        <activity android:name=".r2"></activity>
+        <activity android:name=".r3"></activity>
+        <activity android:name=".r4"></activity>
+
+
+    </application>
+
+</manifest>

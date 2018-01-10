@@ -1,13 +1,13 @@
 package com.example.fatboy.cissgin;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.content.Intent;
 
 /**
  * Created by Fatboy on 22/6/2017.

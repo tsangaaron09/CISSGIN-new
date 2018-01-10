@@ -84,6 +84,16 @@
         <activity android:name=".r4"></activity>
 
 
+
+
+
+
+
+
+
+
+
+
     </application>
 
 </manifest>

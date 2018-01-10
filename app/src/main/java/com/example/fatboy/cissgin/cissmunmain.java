@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v7.app.AppCompatActivity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 
 
 
@@ -30,6 +33,7 @@ public class cissmunmain extends Activity
     TextView h;
     TextView i;
     TextView j;
+
 
 
 
@@ -76,10 +80,13 @@ public class cissmunmain extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cissmunmain);
 
+
+
         // mTextMessage = (TextView) findViewById(R.id);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationCiss);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.menu_home);
+
 
         a = (TextView) findViewById(R.id.cissmunix);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
