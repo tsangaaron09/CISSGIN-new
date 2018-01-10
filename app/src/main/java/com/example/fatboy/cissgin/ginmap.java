@@ -1,6 +1,7 @@
 package com.example.fatboy.cissgin;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
@@ -20,6 +22,7 @@ public class ginmap extends AppCompatActivity{
 
     private Button hs,pc,ms,es,ritt;
     ImageView img;
+    TextView a;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -110,7 +113,9 @@ public class ginmap extends AppCompatActivity{
             }
         });
 
-
+        a = (TextView) findViewById(R.id.map);
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
+        a.setTypeface(myCustomFont);
 
     }
 

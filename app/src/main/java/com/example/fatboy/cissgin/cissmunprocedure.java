@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class cissmunprocedure extends Activity {
 
 
-    TextView a,c,d,e,f,g,h,i;
+    TextView a,b,c,d,e,f,g,h,i;
     private Button coverpage,roster,guidelines, rules, chairing,one,two;
 
 
@@ -135,6 +135,9 @@ public class cissmunprocedure extends Activity {
         a = (TextView) findViewById(R.id.studnetofficer);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         a.setTypeface(myCustomFont);
+
+        b = (TextView) findViewById(R.id.procedure);
+        b.setTypeface(myCustomFont);
 
         c = (TextView) findViewById(R.id.coverpage);
         c.setTypeface(myCustomFont);
