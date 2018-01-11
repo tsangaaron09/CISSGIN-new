@@ -173,7 +173,7 @@
                 tools:layout_editor_absoluteY="273dp" />
 
             <Button
-                android:id="@+id/ritttmann"
+                android:id="@+id/rittmann"
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
