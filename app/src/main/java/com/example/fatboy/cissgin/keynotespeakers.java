@@ -32,7 +32,7 @@ public class keynotespeakers extends Activity {
                     return true;
 
                 case R.id.menu_map:
-                    Intent o = new Intent(keynotespeakers.this, ginmap.class);
+                    Intent o = new Intent(keynotespeakers.this, ginmapnew.class);
                     startActivity(o);
                     return true;
                 case R.id.menu_more:

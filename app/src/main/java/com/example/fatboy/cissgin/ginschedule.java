@@ -30,7 +30,7 @@ public class ginschedule extends AppCompatActivity {
                     return true;
 
                 case R.id.menu_map:
-                    Intent o = new Intent(ginschedule.this, ginmap.class);
+                    Intent o = new Intent(ginschedule.this, ginmapnew.class);
                     startActivity(o);
                     return true;
                 case R.id.menu_more:
