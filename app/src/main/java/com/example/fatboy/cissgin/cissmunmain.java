@@ -5,15 +5,11 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
-
-
-
 
 
 /**
@@ -35,7 +31,7 @@ public class cissmunmain extends Activity
     TextView j;
 
 
-
+private Button vigil1, vigil2, vigil3;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -79,6 +75,31 @@ public class cissmunmain extends Activity
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cissmunmain);
+
+        vigil1 = (Button)findViewById(R.id.vigil1);
+        vigil1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openvigil1();
+            }
+        });
+
+        vigil2 = (Button)findViewById(R.id.vigil2);
+        vigil2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openvigil2();
+            }
+        });
+
+        vigil3 = (Button)findViewById(R.id.vigil3);
+        vigil3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openvigil3();
+            }
+        });
+
 
 
 
@@ -125,5 +146,27 @@ public class cissmunmain extends Activity
 
 
     }
+
+    public void openvigil1()
+    {
+        Intent k = new Intent(this, vigilpage1.class);
+        startActivity(k);
+    }
+
+    public void openvigil2()
+    {
+        Intent k = new Intent(this, vigilpage2.class);
+        startActivity(k);
+    }
+
+    public void openvigil3()
+    {
+        Intent k = new Intent(this, vigilpage3.class);
+        startActivity(k);
+    }
+
+
+
+
 }
 
