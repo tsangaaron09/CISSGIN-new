@@ -29,16 +29,17 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
         <activity android:name=".ginasiamain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+
         <activity android:name=".moreTab"></activity>
         <activity android:name=".shanghaiPage"></activity>
         <activity android:name=".jinqiao_page"></activity>

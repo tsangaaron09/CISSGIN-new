@@ -53,7 +53,7 @@
                 android:layout_gravity="end|bottom"
                 android:background="#1F1E1F"
                 android:gravity="center_vertical"
-                android:text="CISSMUN IX"
+                android:text="CISSMUN X"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
@@ -181,13 +181,13 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/KatherineHou"
+                        android:id="@+id/AnnaWei"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="Katherine Hou"
+                        android:text="Anna Wei"
                         android:textColor="#000000" />
 
                     <EditText
@@ -199,20 +199,20 @@
                         android:editable="false"
                         android:ems="10"
                         android:inputType="none"
-                        android:text="I have been involved with CISSMUN and MUN in general since 7th grade. Creating and being a part of a forum for confronting global issues is really important to me! "
+                        android:text="I am honored to serve as the Secretary General for the tenth annual session of CISSMUN. I am excited to welcome all of you to be a part of this platform for growing, learning, communicating, and compromising."
                         android:textColor="#000000"
                         android:textSize="12sp" />
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/katherinepic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/annapic"
+                    android:layout_width="100dp"
+                    android:layout_height="135dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    android:src="@drawable/katherine1" />
+                    android:src="@drawable/annapicture" />
 
             </LinearLayout>
 
@@ -226,43 +226,41 @@
                 android:editable="false"
                 android:ems="10"
                 android:inputType="none"
-                android:text="CISSMUN and GIN working together during this conference will hopefully give us all a broader understanding of how important issues can be tackled. Ultimately, GIN and MUN are two sides of the same coin. Let's find a way to connect the ideas, and connect with each other, to collaborate!"
+                android:text="We hope that you will have a worthwhile experience at CISSMUN X, where you will experience the culture and vigor of Shanghai, connect with other brilliant, principle-centered global citizens, and walk away with a renewed understanding of the significance of confronting and tackling world issues."
                 android:textColor="#000000"
                 android:textSize="12sp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="30dp" />
 
             <Button
                 android:id="@+id/vigil1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vigil Page 1"
                 android:layout_marginBottom="10dp"
-                android:textColor="#000000"
-                android:background="@drawable/borderline_iv"/>
+                android:background="@drawable/borderline_iv"
+                android:text="Vigil Page 1"
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/vigil2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vigil Page 2"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="#000000"
-                android:background="@drawable/borderline_iv"/>
+                android:background="@drawable/borderline_iv"
+                android:text="Vigil Page 2"
+                android:textColor="#000000" />
 
 
             <Button
                 android:id="@+id/vigil3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/borderline_iv"
                 android:text="Vigil Page 3"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="#000000"
-                android:background="@drawable/borderline_iv"/>
+                android:textColor="#000000" />
 
             <Space
                 android:layout_width="match_parent"

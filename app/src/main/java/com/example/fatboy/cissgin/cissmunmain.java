@@ -137,7 +137,7 @@ private Button vigil1, vigil2, vigil3;
         i = (TextView) findViewById(R.id.SecretaryGeneral);
         i.setTypeface(myCustomFont);
 
-        j = (TextView) findViewById(R.id.KatherineHou);
+        j = (TextView) findViewById(R.id.AnnaWei);
         j.setTypeface(myCustomFont);
 
 

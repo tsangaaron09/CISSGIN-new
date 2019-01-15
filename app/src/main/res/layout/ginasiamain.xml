@@ -226,7 +226,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="30dp" />
 
             <Button
                 android:id="@+id/vigil1"
@@ -241,22 +241,22 @@
                 android:id="@+id/vigil2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vigil Page 2"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="#000000"
-                android:background="@drawable/borderline_iv"/>
+                android:layout_marginTop="0dp"
+                android:background="@drawable/borderline_iv"
+                android:text="Vigil Page 2"
+                android:textColor="#000000" />
 
 
             <Button
                 android:id="@+id/vigil3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/borderline_iv"
                 android:text="Vigil Page 3"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="#000000"
-                android:background="@drawable/borderline_iv"/>
+                android:textColor="#000000" />
 
             <Space
                 android:layout_width="match_parent"
