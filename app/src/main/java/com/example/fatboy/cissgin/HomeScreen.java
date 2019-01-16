@@ -32,18 +32,9 @@ public class HomeScreen extends AppCompatActivity {
         Typeface myCustomFont2 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         b.setTypeface(myCustomFont2);
 
-        c = (TextView) findViewById(R.id.pleaseselectyourconference);
-        Typeface myCustomFont3 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        c.setTypeface(myCustomFont3);
-
         d = (TextView) findViewById(R.id.Bcissmun);
         Typeface myCustomFont4 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
         d.setTypeface(myCustomFont4);
-
-        e = (TextView) findViewById(R.id.Bginasia);
-        Typeface myCustomFont5 = Typeface.createFromAsset(getAssets(),"fonts/Avenir.ttc");
-        e.setTypeface(myCustomFont5);
-
 
 
 
@@ -54,11 +45,6 @@ public class HomeScreen extends AppCompatActivity {
         if(v.getId() == R.id.Bcissmun)
         {
             Intent i = new Intent(HomeScreen.this,cissmunmain.class);
-            startActivity(i);
-        }
-        else if (v.getId() == R.id.Bginasia)
-        {
-            Intent i = new Intent(HomeScreen.this,ginasiamain.class);
             startActivity(i);
         }
 

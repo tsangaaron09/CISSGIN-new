@@ -501,7 +501,7 @@
                 android:paddingRight="15dp">
 
                 <TextView
-                    android:id="@+id/ahsd"
+                    android:id="@+id/ahsd1"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -514,7 +514,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/ddyd"
+                    android:id="@+id/ddyd2"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -536,7 +536,7 @@
                 android:paddingRight="15dp">
 
                 <TextView
-                    android:id="@+id/ahsd"
+                    android:id="@+id/ahsd3"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"

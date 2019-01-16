@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Friday, January 19, 2018"
+                android:text="Friday, January 18, 2019"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -81,7 +81,7 @@
                 android:paddingRight="15dp">
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/textView223"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -94,7 +94,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/textView233"
                     android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -128,7 +128,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/textView235"
                     android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -149,7 +149,7 @@
                 android:paddingRight="15dp">
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/textView226"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -162,7 +162,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/textView237"
                     android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -183,7 +183,7 @@
                 android:paddingRight="15dp">
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/textView228"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10sp"
@@ -561,7 +561,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5sp"
-                android:text="Saturday, January 20, 2018"
+                android:text="Saturday, January 19, 2019"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -888,7 +888,7 @@
                 android:id="@+id/Sunday"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sunday 21, 2018"
+                android:text="Sunday 20, 2019"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"

@@ -91,7 +91,7 @@
                         android:id="@+id/ishmael"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Ishmael Beah"
+                        android:text="Paula Kahumbu"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -102,7 +102,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="-1dp"
-                        android:text="Human Rights Activist"
+                        android:text="Environmental Activist"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -114,7 +114,7 @@
                         android:editable="false"
                         android:ems="10"
                         android:inputType="none"
-                        android:text="Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus and Giroux."
+                        android:text="Dr. Kahumbu is a multi-award-winning Kenyan wildlife conservationist and CEO of WildlifeDirect. She leads the highly successful Hands Off Our Elephants campaign which aims to restore Kenyan leadership in elephant conservation."
                         android:textColor="#000000"
                         android:textSize="10sp" />
                 </LinearLayout>
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="3dp"
                     android:layout_weight="1"
-                    android:src="@drawable/beah" />
+                    android:src="@drawable/paula" />
 
             </LinearLayout>
 
@@ -139,7 +139,7 @@
                 android:inputType="none"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe and Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   "
+                android:text="We are very excited to share that Dr. Paula Kahumbu, a leading voice worldwide for elephant conservation, will be our keynote speaker on Saturday, January 19th from 3-4 pm in the PC gym!  Dr. Kahumbu writes extensively on wide range of wildlife conservation and human wildlife conflict issues. She has written two children’s books and writes regularly for National Geographic and The Guardian. "
                 android:textColor="#000000"
                 android:textSize="10sp" />
 
@@ -166,7 +166,7 @@
                         android:id="@+id/dalglish"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Peter Dalglish"
+                        android:text="Kenneth Jarrett"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -177,7 +177,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="-1dp"
-                        android:text="Humanitarian"
+                        android:text="Diplomat"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -189,9 +189,9 @@
                         android:editable="false"
                         android:ems="10"
                         android:inputType="none"
-                        android:text="Peter Dalglish is the senior advisor for UN-Habitat Afghanistan and has served as the chief technical advisor for the United Nations."
+                        android:text="During his 26-year diplomatic career, his postings included Consul General in Shanghai, Deputy Consul General in Hong Kong, and Director of Asian Affairs at the White House National Security Council."
                         android:textColor="#000000"
-                        android:textSize="11sp" />
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <ImageView
@@ -200,7 +200,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="3dp"
                     android:layout_weight="1"
-                    android:src="@drawable/dalglish" />
+                    android:src="@drawable/kenneth" />
 
             </LinearLayout>
 
@@ -214,7 +214,7 @@
                 android:inputType="none"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. "
+                android:text="He is the recipient of the Magnolia Award (Silver) from the Shanghai government and is a member of the National Committee for US-China Relations.  "
                 android:textColor="#000000"
                 android:textSize="10sp" />
 
@@ -222,240 +222,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp">
-
-                <LinearLayout
-                    android:layout_width="233dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/twins"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Melati and Isabel Wijsen"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/teenagers"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="-1dp"
-                        android:text="Teenagers"
-                        android:textColor="#000000"
-                        android:textSize="12sp" />
-
-                    <EditText
-                        android:id="@+id/desc1twins"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:editable="false"
-                        android:ems="10"
-                        android:inputType="none"
-                        android:text="Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018."
-                        android:textColor="#000000"
-                        android:textSize="12sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/melati1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/melati" />
-
-                <ImageView
-                    android:id="@+id/melati2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/melati1" />
-
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/desc2melati"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-7dp"
-                android:editable="false"
-                android:ems="10"
-                android:inputType="none"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="The island suffers from a crushing plastic pollution problem, so Isabel and Melati Wijsen decided to take action and start Bye Bye Plastic Bags to mobilize other kids and adults to work toward a cleaner Bali. To achieve the goal, the girls have organized beach clean-ups, put on a fashion show, given a TED talk, gone on a hunger strike, and met with the UN Secretary General. Their keynote will focus on what they’ve done so far and on why they believe so passionately in their cause."
-                android:textColor="#000000"
-                android:textSize="11sp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp">
-
-                <LinearLayout
-                    android:layout_width="233dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/bedard"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Justin Bedard"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/jump"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="-1dp"
-                        android:text="Executive Director of JUMP !"
-                        android:textColor="#000000"
-                        android:textSize="12sp" />
-
-                    <EditText
-                        android:id="@+id/desc1bedard"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:editable="false"
-                        android:ems="10"
-                        android:inputType="none"
-                        android:text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. "
-                        android:textColor="#000000"
-                        android:textSize="13sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/bedardpic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/bedard" />
-
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/desc2bedard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-9dp"
-                android:editable="false"
-                android:ems="10"
-                android:inputType="none"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!"
-                android:textColor="#000000"
-                android:textSize="11sp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp">
-
-                <LinearLayout
-                    android:layout_width="233dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/phuc"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Kim Phuc"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/Photographer"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:layout_marginTop="-1dp"
-                        android:text="Photographer"
-                        android:textColor="#000000"
-                        android:textSize="12sp" />
-
-                    <EditText
-                        android:id="@+id/desc1phuc"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:editable="false"
-                        android:ems="10"
-                        android:inputType="none"
-                        android:text="For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred."
-                        android:textColor="#000000"
-                        android:textSize="11sp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/phucpic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/phuc" />
-
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/desc2phuc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-7dp"
-                android:editable="false"
-                android:ems="10"
-                android:inputType="none"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. "
-                android:textColor="#000000"
-                android:textSize="10sp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
 
 
         </LinearLayout>

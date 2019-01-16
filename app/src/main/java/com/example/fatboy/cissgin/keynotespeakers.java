@@ -94,42 +94,5 @@ public class keynotespeakers extends Activity {
         i = (TextView) findViewById(R.id.desc2dalglish);
         i.setTypeface(myCustomFont);
 
-        j = (TextView) findViewById(R.id.twins);
-        j.setTypeface(myCustomFont);
-
-        k = (TextView) findViewById(R.id.desc1twins);
-        k.setTypeface(myCustomFont);
-
-        l = (TextView) findViewById(R.id.desc2melati);
-        l.setTypeface(myCustomFont);
-
-        m = (TextView) findViewById(R.id.teenagers);
-        m.setTypeface(myCustomFont);
-
-        n = (TextView) findViewById(R.id.bedard);
-        n.setTypeface(myCustomFont);
-
-        o = (TextView) findViewById(R.id.jump);
-        o.setTypeface(myCustomFont);
-
-        p = (TextView) findViewById(R.id.desc1bedard);
-        p.setTypeface(myCustomFont);
-
-        q = (TextView) findViewById(R.id.desc2bedard);
-        q.setTypeface(myCustomFont);
-
-        r = (TextView) findViewById(R.id.phuc);
-        r.setTypeface(myCustomFont);
-
-        s = (TextView) findViewById(R.id.Photographer);
-        s.setTypeface(myCustomFont);
-
-        t = (TextView) findViewById(R.id.desc1phuc);
-        t.setTypeface(myCustomFont);
-
-        u = (TextView) findViewById(R.id.desc2phuc);
-        u.setTypeface(myCustomFont);
-
-
     }
 }
